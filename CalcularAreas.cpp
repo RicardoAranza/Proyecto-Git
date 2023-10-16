@@ -18,7 +18,15 @@ int main() {
         
         //Aquí iniciará el switch
         
-        
+        case 2: // Área de un triángulo
+                double base, altura;
+                cout << "Ingrese la base del triángulo: ";
+                cin >> base;
+                cout << "Ingrese la altura del triángulo: ";
+                cin >> altura;
+                cout << "El área del triángulo es: " << 0.5 * base * altura << endl;
+                break;
+
          case 3: // Área de un círculo
                 double radio;
                 cout << "Ingrese el radio del círculo: ";
