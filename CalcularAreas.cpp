@@ -34,6 +34,19 @@ int main() {
                 cout << "El área del círculo es: " << M_PI * pow(radio, 2) << endl;
                 break;
 
+case 4: // Área de un rectángulo
+                double baseRect, alturaRect;
+                cout << "Ingrese la base del rectángulo: ";
+                cin >> baseRect;
+                cout << "Ingrese la altura del rectángulo: ";
+                cin >> alturaRect;
+                cout << "El área del rectángulo es: " << baseRect * alturaRect << endl;
+                break;
+
+
+
+
+
         //WAWAWAWAWAWAWAWAWAWA LA WEA FOMEEEEEEEE
         
          default:
