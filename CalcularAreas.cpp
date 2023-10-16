@@ -18,9 +18,19 @@ int main() {
         
         //Aquí iniciará el switch
         
+        
+         case 3: // Área de un círculo
+                double radio;
+                cout << "Ingrese el radio del círculo: ";
+                cin >> radio;
+                cout << "El área del círculo es: " << M_PI * pow(radio, 2) << endl;
+                break;
+
         //WAWAWAWAWAWAWAWAWAWA LA WEA FOMEEEEEEEE
         
-        
+         default:
+                cout << "Opción no válida. Por favor, elija una opción válida." << endl;
+                break;
         system("cls");
     } while (opcion != 5);
 
